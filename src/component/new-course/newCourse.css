@@ -1,0 +1,25 @@
+.new_course{
+    margin-bottom: 200px;
+}
+.new_course .col-sm-5 .box{
+padding: 20px;
+background: #ccc;
+text-align: center;
+}
+.new_course .box:hover{
+    background: yellowgreen;
+    color: #000;
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.new_course .col-sm-5 .box h6{
+    font-size: 20px;
+    font-weight: 600;
+}
+.new_course .col-sm-5 .box h5{
+    font-size: 30px;
+    font-weight: 700;
+}
+.new_course .row {
+    margin: 20px auto;
+}

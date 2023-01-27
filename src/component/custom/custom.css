@@ -1,0 +1,29 @@
+.custom{
+    background: #000;
+    padding: 20px;
+    min-height: 600px;
+    margin-bottom: 200px;
+}
+.custom .content{
+    color: #fff;
+} 
+.custom .box{
+    box-shadow: 10px 10px 10px -10px
+    rgb(225, 225, 0),
+    inset 10px 10px 10px -10px rgb(225, 225, 0);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+
+}
+.custom .box:hover{
+    background: yellowgreen;
+    color: #000;
+    cursor: pointer;
+    transform: scale(1.07);
+}
+.custom .box h6{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px auto;
+}

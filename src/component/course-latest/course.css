@@ -1,0 +1,31 @@
+.latest{
+    margin-bottom: 200px;
+}
+.latest .box{
+    background: #ccc;
+    box-shadow: 10px 10px 10px 2px
+    /* rgba(44, 199, 191, 0.637) */
+}
+.latest .boxContent{
+    padding: 10px;
+}
+.latest .boxContent h6{
+    color: rgb(0, 128, 225);
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+    text-transform: uppercase ;
+}
+.latest .boxContent h5{
+    font-size: 20px;
+    font-weight: 900;
+    margin: 15px auto;
+}
+.latest .boxContent Link {
+    font-size: 30px;
+    color: yellowgreen;
+}
+.latest .box:hover {
+    transform: scale(1.05);
+}
