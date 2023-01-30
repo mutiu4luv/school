@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import mute from "../../images/mute.jpg"
 import "../home/home.css"
 const Home = () => {
@@ -16,9 +17,9 @@ const Home = () => {
     <div className='HeaderContent'>
 
 <h6>Welcome</h6>
-<h5> Easy <br/>University </h5>
+<h5> Mutiu <br/>University </h5>
 <p> We Aim To Create An Extraordinary Universty</p>
-<Button className='btn'>Discover More </Button>
+   <Link to="/login" ><Button className='btn'>Sign up / Sing in </Button> </Link> 
 
     </div>
 </div>
